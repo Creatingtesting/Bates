@@ -1,0 +1,38 @@
+-- By Ezterminals on discord
+-- YALL will be raided if no credit .gg/UNHeRmUAyH change sets btw
+ 
+getgenv().Bate = {
+    Enabled = true,
+    Prediction = 0.16606,
+    HorizontalPrediction = 0.1760773,
+    VerticalPrediction = 0.160692,
+    XPrediction = 0.176073,
+    YPrediction = 0.167092,
+    Smoothness = {
+        Enabled = true,
+        Amount = 7,
+        Shake = true,
+        ShakeValue = 2,
+        AimPart = "LowerTorso",
+    },
+    ThirdPerson = true,
+    FirstPerson = true,
+    TeamCheck = false -- Check if Target is on your Team (True means it won't lock onto your teammates, false is vice versa)
+}
+ 
+local users = {
+    "User1",
+    "User2",
+    "User3",
+}
+ 
+local JumpFunction = {
+    Enabled = true,
+    PredictionAmount = 0.13,
+}
+getgenv().HitChance = {
+    Enabled = true,
+    Amount = 300,
+}
+
+loadstring(game:HttpGet("https://pastebin.com/raw/gjCG75s2"))()
